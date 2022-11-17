@@ -5,7 +5,7 @@ export interface Game {
   description: string;
   price: number;
   rating?: number;
-  reviews?: Review[]; 
+  reviews?: Review[];
 }
 
 export interface Review {
