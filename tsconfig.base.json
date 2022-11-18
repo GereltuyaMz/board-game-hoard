@@ -26,7 +26,15 @@
       "@bghoard/review/ui-tile": ["libs/review/ui-tile/src/index.ts"],
       "@bghoard/review/util-formatters": [
         "libs/review/util-formatters/src/index.ts"
-      ]
+      ],
+      "@bghoard/store/data-access-cart": [
+        "libs/store/data-access-cart/src/index.ts"
+      ],
+      "@bghoard/store/data-access-games": [
+        "libs/store/data-access-games/src/index.ts"
+      ],
+      "@bghoard/store/feature-cart": ["libs/store/feature-cart/src/index.ts"],
+      "@bghoard/store/ui-formatters": ["libs/store/ui-formatters/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
