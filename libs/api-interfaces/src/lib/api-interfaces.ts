@@ -9,7 +9,7 @@ export interface Game {
 }
 
 export interface Review {
-  game: string;
+  game: string | undefined;
   rating: number;
   content: string;
 }
